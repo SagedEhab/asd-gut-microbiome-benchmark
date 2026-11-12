@@ -12,16 +12,16 @@ RULES.md                               fairness and integrity rules
 TASKS.md                               exact deliverables per track
 data/train/<cohort>/                   genus count tables + labels (Ding, Zou, David)
 data/holdout/genus_counts.tsv          blind cohort features only (labels are NOT in this repo)
-rounds/round_NN/<agent>/               each agent writes only here, for the current round
-rounds/round_NN/FEEDBACK.md            the human's feedback to all agents after the round (identical for all)
-best/                                  the current best solution and DECISIONS.md log
+rounds/round_NN/                       FROZEN past rounds only (each agent's files + FEEDBACK.md), added by the human
+templates/                             RUN_LOG.md and QUESTIONS.md for agents to fill in
 scorer/score.py                        scores the final round once against the private holdout labels
-scoring/rubric.md, leaderboard.md      rubric and results
+scoring/rubric.md                      how each round is judged
 ```
 
 ## How each agent takes part
-- **Claude** and **ChatGPT** can run code. They work in their round folder and commit to their own branch (`ai/claude`, `ai/chatgpt`).
-- **Perplexity** cannot run code or commit. It receives the identical prompt, answers the literature and writing tracks, and the human pastes its answer unchanged into its round folder with the exact prompt recorded in `RUN_LOG.md`.
+- This repository is **public and read-only** for the agents. Nobody commits to it except the human.
+- Every agent returns its files to the human, who stores them in a private results repo until all three are frozen, then publishes the round here.
+- **Claude** and **ChatGPT** can run code; **Perplexity** cannot, and does the literature and writing tracks.
 - The human is the referee. No agent grades itself or another.
 
 Start with `PROCESS.md`, then `PROMPT.md`.

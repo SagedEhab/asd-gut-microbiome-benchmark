@@ -1,6 +1,6 @@
 # Rules (identical for every AI)
 
-1. **Same inputs.** Use only files in `data/` plus public sources you cite. Do not ask the human for extra hints about the data; if you need something, ask in `rounds/round_NN/<agent>/QUESTIONS.md` and it will be answered to all three.
+1. **Same inputs.** Use only files in `data/` plus public sources you cite. Do not ask the human for extra hints about the data; if you need something, send the question to the human; every answer is given to all three agents.
 2. **Blind holdout.** `data/holdout/` has features only. Labels are held outside the repository by the human. Do not try to infer or request them. Predictions are the only thing handed back.
 3. **Everything learned from training data only.** Prevalence filters, feature selection, scaling, network construction, hyperparameter tuning, thresholds and any per-cohort adjustment must be fitted without the holdout labels. If a step uses the holdout *features* (for example per-cohort standardisation), say so in `method.md`.
 4. **Cohort-wise validation.** Report leave-one-cohort-out results across the three training cohorts. Random sample splits are not accepted as evidence of generalisation. Keep siblings (`sibling_pair`) together.

@@ -1,4 +1,4 @@
-# Run log: claude
+# Run log: <agent>
 - Prompt / instructions given (paste exactly):
 - Tools used (code execution, browsing, none):
 - Start / end time, total effort:

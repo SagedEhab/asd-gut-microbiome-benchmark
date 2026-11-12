@@ -3,7 +3,7 @@
 Each AI does every track it technically can. Perplexity is expected to do Track B and may attempt A only by describing the method.
 
 ## Track A: classifier on the blind holdout (code)
-Deliver in `rounds/round_NN/<agent>/`:
+Deliver to the human (who files them under `rounds/round_NN/<agent>/`):
 - `predictions.csv`: columns `sample_id,score`. One row per holdout sample (all of them, once). `score` is a number where higher means more ASD-like.
 - `method.md`: features, models, how each step is fitted on training data only, hyperparameter choices, anything that touched holdout features.
 - `loco_results.csv`: leave-one-cohort-out AUC (with 95% interval) for each training cohort.

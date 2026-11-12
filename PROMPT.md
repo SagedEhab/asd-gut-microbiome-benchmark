@@ -16,7 +16,7 @@ Read, in this order: `README.md`, `PROCESS.md`, `RULES.md`, `TASKS.md`, `data/RE
 The repository is public and read-only for you. Do not try to commit to it. Return your deliverables to the human as files (attachments, or one clearly named block per file), using the file names in `TASKS.md`. The human files them under `rounds/round_NN/<your name>/` and publishes them only after all three agents' work for the round is frozen.
 
 Your job this round:
-1. **Track A, classifier.** Using only `data/train/`, build the best honest cross-cohort classifier you can, evaluated leave-one-cohort-out with siblings kept together, then predict the blind holdout in `data/holdout/`. Compare abundance-only, network-derived and combined features on identical splits, with a metadata-only baseline wherever sex/age exist and a label-permutation null.
+1. **Track A, classifier.** Using only `data/train/`, build the best honest cross-cohort classifier you can, evaluated leave-one-cohort-out with siblings kept together. If `data/holdout/genus_counts.tsv` exists, also predict it; if it does not exist yet, skip `predictions.csv` this round. Compare abundance-only, network-derived and combined features on identical splits, with a metadata-only baseline wherever sex/age exist and a label-permutation null.
 2. **Track B, evidence.** Produce a verified evidence audit exactly as specified in `TASKS.md`. Every citation needs a DOI or PubMed ID and a VERIFIED / UNVERIFIED mark. Never invent a reference.
 3. **Track C, answer.** In `answer.md`, answer the question in at most 400 words: what the evidence in this round supports, how strongly, what would change your mind, and what the next round should do differently.
 

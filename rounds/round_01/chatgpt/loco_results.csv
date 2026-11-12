@@ -1,0 +1,19 @@
+cohort,model,n_test,n_asd,auc,ci95_low,ci95_high,split,note
+ding,abundance,122,76,0.47740274599542337,0.3708905516431925,0.5781466880342184,leave-one-cohort-out,cluster bootstrap by sibling_pair
+ding,network,122,76,0.5060068649885584,0.40715842490842497,0.6067388146148817,leave-one-cohort-out,cluster bootstrap by sibling_pair
+ding,combined,122,76,0.48340961098398166,0.3805578569455952,0.5832386608954708,leave-one-cohort-out,cluster bootstrap by sibling_pair
+ding,permuted_labels_abundance,122,76,0.4783609839816933,0.2456521739130435,0.7091604691075515,leave-one-cohort-out,"60 repeats; interval across permutations, not bootstrap CI"
+ding,metadata_only,122,76,,,,leave-one-cohort-out,not estimable: target cohort missing sex and age
+ding,source_label_prevalence_constant,122,76,0.5,0.5,0.5,leave-one-cohort-out,constant score; trivially chance AUC
+zou,abundance,92,45,0.5234042553191489,0.39677805313776054,0.6437673611111111,leave-one-cohort-out,cluster bootstrap by sibling_pair
+zou,network,92,45,0.7735224586288416,0.6691944106059895,0.8572364906657668,leave-one-cohort-out,cluster bootstrap by sibling_pair
+zou,combined,92,45,0.7300236406619386,0.6171262175324675,0.8253598382749325,leave-one-cohort-out,cluster bootstrap by sibling_pair
+zou,permuted_labels_abundance,92,45,0.5101812450748621,0.2092080378250591,0.7626713947990543,leave-one-cohort-out,"60 repeats; interval across permutations, not bootstrap CI"
+zou,metadata_only,92,45,,,,leave-one-cohort-out,not estimable: target cohort missing sex and age
+zou,source_label_prevalence_constant,92,45,0.5,0.5,0.5,leave-one-cohort-out,constant score; trivially chance AUC
+david,abundance,117,60,0.5786549707602339,0.5062180123546207,0.6531509443006424,leave-one-cohort-out,cluster bootstrap by sibling_pair
+david,network,117,60,0.5909356725146199,0.4935525973403454,0.6786558096059822,leave-one-cohort-out,cluster bootstrap by sibling_pair
+david,combined,117,60,0.6046783625730994,0.5292204933359114,0.6801156422600388,leave-one-cohort-out,cluster bootstrap by sibling_pair
+david,permuted_labels_abundance,117,60,0.5108089668615985,0.4120394736842105,0.623391812865497,leave-one-cohort-out,"60 repeats; interval across permutations, not bootstrap CI"
+david,metadata_only,117,60,,,,leave-one-cohort-out,not estimable: both source cohorts missing sex and age
+david,source_label_prevalence_constant,117,60,0.5,0.5,0.5,leave-one-cohort-out,constant score; trivially chance AUC

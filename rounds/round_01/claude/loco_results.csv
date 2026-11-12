@@ -1,0 +1,13 @@
+split,heldout,model,n_train,n_test,n_asd_test,n_features,C,auc,ci95_lo,ci95_hi,perm_null_mean,perm_p,note
+leave-one-cohort-out,ding,abund,209.0,122,76,127,0.01,0.469,0.368,0.568,0.495,0.624,
+leave-one-cohort-out,ding,net,209.0,122,76,127,0.01,0.401,0.304,0.503,0.506,0.762,
+leave-one-cohort-out,ding,comb,209.0,122,76,127,0.01,0.445,0.344,0.544,0.514,0.713,
+leave-one-cohort-out,zou,abund,239.0,92,45,138,1.0,0.534,0.413,0.652,0.51,0.426,
+leave-one-cohort-out,zou,net,239.0,92,45,138,1.0,0.273,0.174,0.393,0.538,0.911,
+leave-one-cohort-out,zou,comb,239.0,92,45,138,1.0,0.5,0.381,0.618,0.478,0.426,
+leave-one-cohort-out,david,abund,214.0,117,60,128,0.01,0.548,0.442,0.651,0.506,0.158,
+leave-one-cohort-out,david,net,214.0,117,60,128,0.01,0.556,0.453,0.663,0.523,0.277,
+leave-one-cohort-out,david,comb,214.0,117,60,128,0.01,0.552,0.443,0.652,0.509,0.158,
+"within-david 5-fold CV, sibling pairs grouped, 5 repeats",david(within),metadata_only_sex_age,,117,60,2,,0.687,,,,,sd over repeats 0.008
+"within-david 5-fold CV, sibling pairs grouped, 5 repeats",david(within),microbiome_only,,117,60,126,,0.506,,,,,sd over repeats 0.024
+"within-david 5-fold CV, sibling pairs grouped, 5 repeats",david(within),microbiome_plus_metadata,,117,60,128,,0.567,,,,,sd over repeats 0.025

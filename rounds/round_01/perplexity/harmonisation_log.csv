@@ -1,0 +1,4 @@
+cohort,n_samples,raw_columns,unassigned_columns_dropped,unassigned_read_fraction,harmonised_genera,genera_shared_by_all_3
+ding,122,438,36,0.026944408795828004,392,175
+zou,92,247,22,0.02482546243372509,222,175
+david,117,398,32,0.023597103889854677,359,175

@@ -1,0 +1,41 @@
+{
+  "input": {
+    "ding": {
+      "samples": 122,
+      "genera": 370,
+      "unassigned_columns_dropped": 36,
+      "ASD": 76
+    },
+    "zou": {
+      "samples": 92,
+      "genera": 210,
+      "unassigned_columns_dropped": 22,
+      "ASD": 45
+    },
+    "david": {
+      "samples": 117,
+      "genera": 341,
+      "unassigned_columns_dropped": 32,
+      "ASD": 60
+    }
+  },
+  "seed": 20261112,
+  "features": 515,
+  "selected_C": {
+    "ding": {
+      "abundance": 0.001,
+      "network": 0.001,
+      "combined": 0.001
+    },
+    "zou": {
+      "abundance": 1.0,
+      "network": 0.001,
+      "combined": 0.001
+    },
+    "david": {
+      "abundance": 0.001,
+      "network": 1.0,
+      "combined": 0.001
+    }
+  }
+}

@@ -1,0 +1,6 @@
+held=zou    network   C=0.001  AUC=0.774  null mean 0.528 [95% 0.228-0.829]  perm p=0.124  AUC by C: {0.001: 0.774, 0.01: 0.661, 0.1: 0.563, 1.0: 0.556}
+held=zou    combined  C=0.001  AUC=0.730  null mean 0.516 [95% 0.174-0.824]  perm p=0.134  AUC by C: {0.001: 0.73, 0.01: 0.573, 0.1: 0.511, 1.0: 0.533}
+held=david  network   C=1.0    AUC=0.591  null mean 0.508 [95% 0.418-0.611]  perm p=0.085  AUC by C: {0.001: 0.617, 0.01: 0.618, 0.1: 0.594, 1.0: 0.591}
+held=david  combined  C=0.001  AUC=0.605  null mean 0.510 [95% 0.419-0.602]  perm p=0.030  AUC by C: {0.001: 0.605, 0.01: 0.567, 0.1: 0.558, 1.0: 0.566}
+held=ding   network   C=0.001  AUC=0.506  null mean 0.492 [95% 0.328-0.649]  perm p=0.423  AUC by C: {0.001: 0.506, 0.01: 0.49, 0.1: 0.473, 1.0: 0.461}
+held=ding   combined  C=0.001  AUC=0.483  null mean 0.501 [95% 0.288-0.714]  perm p=0.582  AUC by C: {0.001: 0.483, 0.01: 0.454, 0.1: 0.47, 1.0: 0.505}

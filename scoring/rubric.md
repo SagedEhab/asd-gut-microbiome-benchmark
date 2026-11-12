@@ -11,6 +11,9 @@ Predictive performance is deliberately a small part. With about 90 holdout child
 | Proposal text (Track C) | 5 | referee | Clear, accurate, no overclaim |
 | Predictive performance | 10 | `scorer/score.py` | Holdout AUC rank with CI-overlap ties: 10 / 6 / 3 (distinct) or equal split when tied |
 
+## Not like-for-like across AIs
+Perplexity cannot run code, so it cannot earn the Track A parts of integrity, reproducibility or performance. Report two things: (1) a winner per track (A classifier, B evidence, C proposal text); (2) an overall percentage = points earned / points available on the tracks that AI attempted. Do not rank an AI that skipped Track A against one that did it on the raw 100-point total.
+
 ## Penalties
 - Fabricated or non-existent citation: -10 each (cap -30).
 - Evidence of using holdout labels or guessing them: disqualified from Track A.

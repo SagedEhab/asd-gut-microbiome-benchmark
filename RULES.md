@@ -10,3 +10,5 @@
 8. **Log everything.** Each submission has `RUN_LOG.md`: prompts or instructions given, tools used, time spent, anything the human changed or fixed.
 9. **No peeking at other submissions** until all three are frozen. The human freezes them by tagging `freeze/<ai>`.
 10. **Caveat for fairness.** The human's earlier work with Claude on this dataset is outside this repository. Claude must say in its `RUN_LOG.md` what prior knowledge of these cohorts it brings.
+11. **Neutral referee.** The human scores the rubric. No contestant, including Claude, grades its own work or another AI's. Contestants may help run `scorer/score.py` but not interpret rubric items.
+12. **Unassigned reads.** Some columns are lineages that stop above genus (they end in `;__`). Decide whether to drop or keep them, and say which in `method.md`. Do not silently renormalise.

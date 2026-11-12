@@ -1,0 +1,5 @@
+__pycache__/
+*.pyc
+*.fastq.gz
+*.qza
+.venv/

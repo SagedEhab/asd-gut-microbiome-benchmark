@@ -1,4 +1,4 @@
-Round: 2 of 2 (final round). The round 1 feedback is copied at the end of this message and is also in rounds/round_01/FEEDBACK.md.
+Round: 2. The round 1 feedback is copied at the end of this message and is also in rounds/round_01/FEEDBACK.md.
 Repository (public, read-only for you): https://github.com/SagedEhab/asd-gut-microbiome-benchmark
 
 You are one of three AI agents (Claude, ChatGPT and Perplexity) working on the same research question in that shared repository:

@@ -1,8 +1,9 @@
-"""Score every submissions/<ai>/predictions.csv against the PRIVATE holdout labels.
+"""Score every rounds/round_NN/<agent>/predictions.csv against the PRIVATE holdout labels.
 
 Private file (never committed): F:\\masters\\ai_benchmark_private\\holdout_labels.tsv  with columns sample_id, diagnosis (ASD/Control)
-Usage:  python -I scorer/score.py [--private PATH]
-Output: table on screen and scoring/performance.md. Performance is only 10 points of the rubric; intervals that overlap are a tie.
+Usage:  python -I scorer/score.py --round NN --final [--private PATH]
+The holdout may be scored ONCE for the whole study: a stamp file blocks repeat scoring so the holdout cannot become a tuning set.
+Output: table on screen and scoring/performance_roundNN.md. Performance is only 10 points of the rubric; intervals that overlap are a tie.
 """
 import argparse, os, sys
 import numpy as np, pandas as pd
@@ -26,12 +27,21 @@ def check(pred, ids):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--private", default=r"F:\masters\ai_benchmark_private\holdout_labels.tsv")
+    ap.add_argument("--round", type=int, required=True)
+    ap.add_argument("--final", action="store_true", help="confirms this is the single final scoring")
     a = ap.parse_args()
+    stamp = os.path.join(ROOT, "scoring", "FINAL_SCORED")
+    if not a.final:
+        sys.exit("Refusing: pass --final to confirm this is the one and only holdout scoring (see PROCESS.md).")
+    if os.path.exists(stamp):
+        sys.exit("Refusing: the holdout was already scored once (scoring/FINAL_SCORED exists).")
     lab = pd.read_csv(a.private, sep="\t"); lab["sample_id"] = lab.sample_id.astype(str)
     y = (lab.diagnosis == "ASD").astype(int).values; ids = lab.sample_id.values
     rng = np.random.default_rng(0); rows = []
-    sub = os.path.join(ROOT, "submissions")
+    sub = os.path.join(ROOT, "rounds", f"round_{a.round:02d}")
     for ai in sorted(os.listdir(sub)):
+        if not os.path.isdir(os.path.join(sub, ai)):
+            continue
         p = os.path.join(sub, ai, "predictions.csv")
         if not os.path.exists(p):
             rows.append(dict(ai=ai, status="no predictions.csv")); continue
@@ -56,7 +66,8 @@ def main():
         note = "No valid submissions."
     out = df.to_string(index=False) + "\n\n" + note + "\n"
     print(out)
-    with open(os.path.join(ROOT, "scoring", "performance.md"), "w") as f:
+    open(stamp, "w").write(f"scored round {a.round}\n")
+    with open(os.path.join(ROOT, "scoring", f"performance_round{a.round:02d}.md"), "w") as f:
         f.write("# Holdout performance (10 points of the rubric)\n\n```\n" + out + "```\n")
 
 

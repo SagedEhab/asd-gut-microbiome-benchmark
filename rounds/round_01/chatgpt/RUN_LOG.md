@@ -1,4 +1,4 @@
-# Run log: codex
+# Run log: chatgpt
 - Prompt / instructions given (paste exactly):
 - Tools used (code execution, browsing, none):
 - Start / end time, total effort:

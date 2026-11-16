@@ -1,0 +1,4 @@
+cohort,n,median_depth_ASD,median_depth_control,auc_depth_for_ASD,mannwhitney_p,auc_observed_genera_for_ASD
+ding,122,42083.0,39839.5,0.651,0.005240141518279293,0.691
+zou,92,32168.0,43289.0,0.072,1.5633697117780752e-12,0.479
+david,117,19028.0,21054.0,0.495,0.9326416441224774,0.504

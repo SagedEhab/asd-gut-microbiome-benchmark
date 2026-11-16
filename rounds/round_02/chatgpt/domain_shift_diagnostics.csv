@@ -1,0 +1,21 @@
+mapping,target,auc,n,folds,interpretation
+family_genus,Zou_vs_Ding_David,0.9931780971438966,331,5.0,"technical cohort membership classification; cannot separate 16S region, site, batch or depth"
+family_genus,ding_vs_ding_genus_presence_jaccard,1.0,392,,observed taxon-key Jaccard; not predictive AUC
+family_genus,ding_vs_zou_genus_presence_jaccard,0.4212962962962963,432,,observed taxon-key Jaccard; not predictive AUC
+family_genus,ding_vs_david_genus_presence_jaccard,0.4291497975708502,494,,observed taxon-key Jaccard; not predictive AUC
+family_genus,zou_vs_ding_genus_presence_jaccard,0.4212962962962963,432,,observed taxon-key Jaccard; not predictive AUC
+family_genus,zou_vs_zou_genus_presence_jaccard,1.0,222,,observed taxon-key Jaccard; not predictive AUC
+family_genus,zou_vs_david_genus_presence_jaccard,0.5227272727272727,352,,observed taxon-key Jaccard; not predictive AUC
+family_genus,david_vs_ding_genus_presence_jaccard,0.4291497975708502,494,,observed taxon-key Jaccard; not predictive AUC
+family_genus,david_vs_zou_genus_presence_jaccard,0.5227272727272727,352,,observed taxon-key Jaccard; not predictive AUC
+family_genus,david_vs_david_genus_presence_jaccard,1.0,314,,observed taxon-key Jaccard; not predictive AUC
+genus,Zou_vs_Ding_David,0.9937693287247589,331,5.0,"technical cohort membership classification; cannot separate 16S region, site, batch or depth"
+genus,ding_vs_ding_genus_presence_jaccard,1.0,370,,observed taxon-key Jaccard; not predictive AUC
+genus,ding_vs_zou_genus_presence_jaccard,0.43209876543209874,405,,observed taxon-key Jaccard; not predictive AUC
+genus,ding_vs_david_genus_presence_jaccard,0.4356223175965665,466,,observed taxon-key Jaccard; not predictive AUC
+genus,zou_vs_ding_genus_presence_jaccard,0.43209876543209874,405,,observed taxon-key Jaccard; not predictive AUC
+genus,zou_vs_zou_genus_presence_jaccard,1.0,210,,observed taxon-key Jaccard; not predictive AUC
+genus,zou_vs_david_genus_presence_jaccard,0.5285285285285285,333,,observed taxon-key Jaccard; not predictive AUC
+genus,david_vs_ding_genus_presence_jaccard,0.4356223175965665,466,,observed taxon-key Jaccard; not predictive AUC
+genus,david_vs_zou_genus_presence_jaccard,0.5285285285285285,333,,observed taxon-key Jaccard; not predictive AUC
+genus,david_vs_david_genus_presence_jaccard,1.0,299,,observed taxon-key Jaccard; not predictive AUC

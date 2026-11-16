@@ -1,0 +1,1 @@
+Held-out comparisons with a permutation p: 106 = 1 headline + 105 secondary (89 LOCO, 16 within-cohort). Per-C sensitivity rows (descriptive, fixed-C p): 424. Secondary raw p<0.05: 15; Holm-adjusted p<0.05: 0.

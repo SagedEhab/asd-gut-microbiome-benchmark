@@ -1,0 +1,2 @@
+delta_auc_combined_minus_metadata,family_boot_ci_low,family_boot_ci_high,cond_null_mean,cond_null_q975,cond_perm_p,n_cond_perm
+-0.0956,-0.219,0.0313,-0.0778,0.0218,0.6139,100

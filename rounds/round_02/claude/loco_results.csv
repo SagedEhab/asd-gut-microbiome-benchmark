@@ -1,0 +1,34 @@
+analysis,heldout,model,n_test,n_features,C,auc,ci95_lo,ci95_hi,auc_C0.001,auc_C0.01,auc_C0.1,auc_C1.0,perm_null_mean,perm_null_q975,perm_p,perm_p_holm_3cohorts,headline,perm_p_holm_all9,note
+LOCO_rarefied5000_famgen,ding,abund,122,119.0,0.001,0.469,0.369,0.568,0.469,0.449,0.487,0.504,0.485,0.681,0.5522,1.0,True,1.0,
+LOCO_rarefied5000_famgen,ding,net,122,119.0,1.0,0.356,0.251,0.456,0.409,0.4,0.372,0.356,0.5,0.725,0.8657,,,1.0,
+LOCO_rarefied5000_famgen,ding,comb,122,119.0,0.001,0.447,0.344,0.548,0.447,0.429,0.469,0.495,0.492,0.71,0.6468,,,1.0,
+LOCO_rarefied5000_famgen,zou,abund,92,120.0,1.0,0.36,0.251,0.477,0.649,0.457,0.389,0.36,0.514,0.851,0.791,1.0,True,1.0,
+LOCO_rarefied5000_famgen,zou,net,92,120.0,0.001,0.586,0.462,0.705,0.586,0.503,0.406,0.391,0.587,0.92,0.5323,,,1.0,
+LOCO_rarefied5000_famgen,zou,comb,92,120.0,1.0,0.344,0.233,0.458,0.62,0.435,0.361,0.344,0.531,0.871,0.8308,,,1.0,
+LOCO_rarefied5000_famgen,david,abund,117,117.0,0.001,0.561,0.473,0.643,0.561,0.527,0.512,0.512,0.519,0.615,0.2488,0.7464,True,1.0,
+LOCO_rarefied5000_famgen,david,net,117,117.0,0.001,0.547,0.455,0.639,0.547,0.535,0.513,0.501,0.533,0.601,0.3632,,,1.0,
+LOCO_rarefied5000_famgen,david,comb,117,117.0,0.001,0.555,0.467,0.637,0.555,0.52,0.512,0.518,0.521,0.615,0.2637,,,1.0,
+LOCO_unrarefied_famgen,ding,abund,122,127.0,0.001,0.484,0.378,0.592,0.484,0.469,0.509,0.557,,,,,,,
+LOCO_unrarefied_famgen,ding,net,122,127.0,0.001,0.43,0.332,0.534,0.43,0.401,0.344,0.333,,,,,,,
+LOCO_unrarefied_famgen,ding,comb,122,127.0,0.001,0.463,0.363,0.561,0.463,0.445,0.489,0.549,,,,,,,
+LOCO_unrarefied_famgen,zou,abund,92,138.0,1.0,0.534,0.415,0.652,0.696,0.578,0.517,0.534,,,,,,,
+LOCO_unrarefied_famgen,zou,net,92,138.0,1.0,0.273,0.167,0.382,0.416,0.33,0.286,0.273,,,,,,,
+LOCO_unrarefied_famgen,zou,comb,92,138.0,1.0,0.5,0.38,0.614,0.626,0.507,0.477,0.5,,,,,,,
+LOCO_unrarefied_famgen,david,abund,117,128.0,0.001,0.582,0.505,0.659,0.582,0.548,0.556,0.572,,,,,,,
+LOCO_unrarefied_famgen,david,net,117,128.0,0.01,0.556,0.468,0.643,0.568,0.556,0.54,0.541,,,,,,,
+LOCO_unrarefied_famgen,david,comb,117,128.0,0.001,0.581,0.501,0.659,0.581,0.552,0.558,0.566,,,,,,,
+LOCO_rarefied5000_genusonly,ding,abund,122,109.0,0.001,0.527,0.426,0.629,0.527,0.51,0.561,0.616,,,,,,,
+LOCO_rarefied5000_genusonly,zou,abund,92,115.0,0.001,0.746,0.639,0.84,0.746,0.592,0.515,0.535,,,,,,,
+LOCO_rarefied5000_genusonly,david,abund,117,112.0,0.001,0.554,0.485,0.629,0.554,0.501,0.468,0.469,,,,,,,
+technical_baseline_loco,ding,depth_only,122,,,0.349,0.255,0.454,,,,,,,,,,,label-vs-logdepth AUC inside this cohort 0.651 (0.5 = no association)
+technical_baseline_loco,ding,richness_only,122,,,0.69,0.591,0.788,,,,,,,,,,,label-vs-richness AUC inside this cohort 0.690 (0.5 = no association)
+technical_baseline_loco,zou,depth_only,92,,,0.072,0.021,0.139,,,,,,,,,,,label-vs-logdepth AUC inside this cohort 0.072 (0.5 = no association)
+technical_baseline_loco,zou,richness_only,92,,,0.493,0.375,0.615,,,,,,,,,,,label-vs-richness AUC inside this cohort 0.493 (0.5 = no association)
+technical_baseline_loco,david,depth_only,117,,,0.505,0.453,0.556,,,,,,,,,,,label-vs-logdepth AUC inside this cohort 0.495 (0.5 = no association)
+technical_baseline_loco,david,richness_only,117,,,0.495,0.401,0.584,,,,,,,,,,,label-vs-richness AUC inside this cohort 0.495 (0.5 = no association)
+david_sibling_pair_concordance,david,abund,55,,,0.509,,,,,,,,,,,,,LOCO_rarefied5000_famgen; fraction of discordant pairs where the ASD child scores higher
+david_sibling_pair_concordance,david,net,55,,,0.545,,,,,,,,,,,,,LOCO_rarefied5000_famgen; fraction of discordant pairs where the ASD child scores higher
+david_sibling_pair_concordance,david,comb,55,,,0.491,,,,,,,,,,,,,LOCO_rarefied5000_famgen; fraction of discordant pairs where the ASD child scores higher
+within_david_complete_cases_sibling_grouped_5fold_x5,david,metadata_only_sex_age,107,,,0.659,,,,,,,,,,,,,sd 0.012; excludes 10 rows missing sex or age; sex coding of controls disputed (round 1 feedback)
+within_david_complete_cases_sibling_grouped_5fold_x5,david,microbiome_only,107,,,0.475,,,,,,,,,,,,,sd 0.031; excludes 10 rows missing sex or age; sex coding of controls disputed (round 1 feedback)
+within_david_complete_cases_sibling_grouped_5fold_x5,david,microbiome_plus_metadata,107,,,0.513,,,,,,,,,,,,,sd 0.034; excludes 10 rows missing sex or age; sex coding of controls disputed (round 1 feedback)

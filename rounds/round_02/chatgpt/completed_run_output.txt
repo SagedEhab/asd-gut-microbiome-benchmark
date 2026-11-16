@@ -1,0 +1,64 @@
+### r2_ding
+family_genus ding abundance AUC 0.484 C 0.001 p 0.488
+family_genus ding network AUC 0.509 C 0.01 p 0.453
+family_genus ding combined AUC 0.485 C 0.001 p 0.532
+DAVID GROUPED                    model   n      auc   ci_low  ci_high  discordant_pairs  fraction_asd_higher  folds    C
+           metadata_only 107 0.651950 0.552794 0.756149                45             0.711111      5 0.01
+               abundance 107 0.439362 0.337238 0.543999                45             0.400000      5 0.01
+                combined 107 0.453191 0.353322 0.557727                45             0.466667      5 0.01
+microbiome_plus_metadata 107 0.485816 0.379877 0.594768                45             0.488889      5 0.01
+
+
+### r2_zou
+family_genus zou abundance AUC 0.535 C 1.0 p 0.582
+family_genus zou network AUC 0.655 C 0.01 p 0.398
+family_genus zou combined AUC 0.536 C 1.0 p 0.632
+DAVID GROUPED                    model   n      auc   ci_low  ci_high  discordant_pairs  fraction_asd_higher  folds    C
+           metadata_only 107 0.651950 0.552794 0.756149                45             0.711111      5 0.01
+               abundance 107 0.439362 0.337238 0.543999                45             0.400000      5 0.01
+                combined 107 0.453191 0.353322 0.557727                45             0.466667      5 0.01
+microbiome_plus_metadata 107 0.485816 0.379877 0.594768                45             0.488889      5 0.01
+
+
+### r2_david
+family_genus david abundance AUC 0.585 C 0.001 p 0.085
+family_genus david network AUC 0.618 C 0.001 p 0.01
+family_genus david combined AUC 0.578 C 1.0 p 0.09
+DAVID GROUPED                    model   n      auc   ci_low  ci_high  discordant_pairs  fraction_asd_higher  folds    C
+           metadata_only 107 0.651950 0.552794 0.756149                45             0.711111      5 0.01
+               abundance 107 0.439362 0.337238 0.543999                45             0.400000      5 0.01
+                combined 107 0.453191 0.353322 0.557727                45             0.466667      5 0.01
+microbiome_plus_metadata 107 0.485816 0.379877 0.594768                45             0.488889      5 0.01
+
+
+### r2_genus_ding
+genus ding abundance AUC 0.477 C 0.001 p 0.517
+genus ding network AUC 0.506 C 0.001 p 0.468
+genus ding combined AUC 0.483 C 0.001 p 0.532
+DAVID GROUPED                    model   n      auc   ci_low  ci_high  discordant_pairs  fraction_asd_higher  folds    C
+           metadata_only 107 0.651950 0.552794 0.756149                45             0.711111      5 0.01
+               abundance 107 0.439362 0.337238 0.543999                45             0.400000      5 0.01
+                combined 107 0.453191 0.353322 0.557727                45             0.466667      5 0.01
+microbiome_plus_metadata 107 0.485816 0.379877 0.594768                45             0.488889      5 0.01
+
+
+### r2_genus_zou
+genus zou abundance AUC 0.523 C 1.0 p 0.607
+genus zou network AUC 0.774 C 0.001 p 0.164
+genus zou combined AUC 0.73 C 0.001 p 0.204
+DAVID GROUPED                    model   n      auc   ci_low  ci_high  discordant_pairs  fraction_asd_higher  folds    C
+           metadata_only 107 0.651950 0.552794 0.756149                45             0.711111      5 0.01
+               abundance 107 0.439362 0.337238 0.543999                45             0.400000      5 0.01
+                combined 107 0.453191 0.353322 0.557727                45             0.466667      5 0.01
+microbiome_plus_metadata 107 0.485816 0.379877 0.594768                45             0.488889      5 0.01
+
+
+### r2_genus_david
+genus david abundance AUC 0.579 C 0.001 p 0.124
+genus david network AUC 0.591 C 1.0 p 0.06
+genus david combined AUC 0.605 C 0.001 p 0.05
+DAVID GROUPED                    model   n      auc   ci_low  ci_high  discordant_pairs  fraction_asd_higher  folds    C
+           metadata_only 107 0.651950 0.552794 0.756149                45             0.711111      5 0.01
+               abundance 107 0.439362 0.337238 0.543999                45             0.400000      5 0.01
+                combined 107 0.453191 0.353322 0.557727                45             0.466667      5 0.01
+microbiome_plus_metadata 107 0.485816 0.379877 0.594768                45             0.488889      5 0.01

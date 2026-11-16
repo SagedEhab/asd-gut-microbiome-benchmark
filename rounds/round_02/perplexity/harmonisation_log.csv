@@ -1,0 +1,13 @@
+cohort,key,rarefied,raw_columns,unassigned_columns_dropped,unassigned_read_fraction,keys,keys_shared_by_all_3,variant
+ding,famgenus,False,438,36,0.0269,392,175,famgenus
+zou,famgenus,False,247,22,0.0248,222,175,famgenus
+david,famgenus,False,398,32,0.0236,359,175,famgenus
+ding,genus,False,438,36,0.0269,370,168,genus
+zou,genus,False,247,22,0.0248,210,168,genus
+david,genus,False,398,32,0.0236,341,168,genus
+ding,famgenus,True,438,36,0.0268,392,175,famgenus_rarefied
+zou,famgenus,True,247,22,0.0249,222,175,famgenus_rarefied
+david,famgenus,True,398,32,0.0263,359,175,famgenus_rarefied
+ding,genus,True,438,36,0.0268,370,168,genus_rarefied
+zou,genus,True,247,22,0.0249,210,168,genus_rarefied
+david,genus,True,398,32,0.0263,341,168,genus_rarefied
